@@ -15,7 +15,7 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        index,
+        index: true,
         element: <Landing />,
       },
       {
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "Login",
+        path: "login",
         element: (
           <div>
             <Login />

@@ -1,11 +1,11 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   nav {
     width: var(--fluid-width);
     max-width: var(--max-width);
     margin: 0 auto;
-    height: var(--nav-height);
+    hieght: var(--nav-height);
     display: flex;
     align-items: center;
   }
@@ -16,7 +16,7 @@ const Wrapper = styled.section`
     margin-top: -3rem;
   }
   h1 {
-    font-weight: 700;
+    font-height: 700;
     span {
       color: var(--primary-500);
     }
@@ -35,7 +35,7 @@ const Wrapper = styled.section`
     display: none;
   }
   .btn {
-    padding: 0.75rem 1rem;
+    padding: 0.7rem 1rem;
   }
   @media (min-width: 992px) {
     .page {
