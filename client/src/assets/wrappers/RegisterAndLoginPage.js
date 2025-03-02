@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   min-height: 100vh;
@@ -11,14 +11,14 @@ const Wrapper = styled.section`
   }
   .form {
     max-width: 400px;
-    border-top: 5px solid var(--primary-500);
+    border-top: 5ps solid var(--primary-500);
   }
   h4 {
     text-align: center;
     margin-bottom: 1.38rem;
   }
   p {
-    margin-top: 1rem;
+    margin-top: 1 rem;
     text-align: center;
     line-height: 1.5;
   }
