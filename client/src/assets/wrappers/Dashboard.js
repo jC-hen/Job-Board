@@ -1,9 +1,9 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.section`
   .dashboard {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-column: 1fr;
   }
   .dashboard-page {
     width: 90vw;
@@ -12,7 +12,7 @@ const Wrapper = styled.section`
   }
   @media (min-width: 992px) {
     .dashboard {
-      grid-template-columns: auto 1fr;
+      grid-template-column: auto 1fr;
     }
     .dashboard-page {
       width: 90%;
