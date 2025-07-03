@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Wrapper = styled.nav`
   height: var(--nav-height);
@@ -13,39 +13,41 @@ const Wrapper = styled.nav`
     align-items: center;
     justify-content: space-between;
   }
-  .toggle-btn {
+  .toggle-btn{
     background: transparent;
-    border-color: transparent;
-    font-size: 1.75rem;
+    border-color:transparent;
+    font-size:1.75rem;
     color: var(--primary-500);
-    cursor: pointer;
-    display: flex;
-    align-items: center;
+    cursor:pointer;
+    display:flex;
+    align-item:center;
   }
-  .logo-text {
-    display: none;
+  .logo-text{
+    display:none;
   }
-  .logo {
-    display: flex;
-    align-items: center;
-    width: 100px;
+  .logo{
+    display:flex
+    align-items:center
+    width:100px
   }
-  .btn-container {
-    display: flex;
-    align-items: center;
+  .btn-container{
+    display:flex
+    align-items:center
   }
-  @media (min-width: 992px) {
+
+  @media (min-width:992px){
     position: sticky;
     top: 0;
-    .nav-center {
-      width: 90%;
+    .nav-center{
+    width: 90%;
     }
     .logo {
-      display: none;
+      display:none;
     }
-    .logo-text {
+    .logo {
       display: block;
     }
   }
+
 `;
 export default Wrapper;
