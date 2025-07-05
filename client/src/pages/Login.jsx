@@ -18,7 +18,7 @@ const Login = () => {
         <p>
           Not a member yet?
           <Link to="/register" className="member-btn">
-            login
+            Sign up
           </Link>
         </p>
       </form>
