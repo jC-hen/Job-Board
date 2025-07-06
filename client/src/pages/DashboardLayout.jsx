@@ -33,9 +33,9 @@ const DashboardLayout = () => {
         <main className="dashboard">
           <SmallSideBar />
           <BigSideBar />
-          <div className="dashboard-page">
+          <div>
             <Navbar />
-            <div>
+            <div className="dashboard-page">
               <Outlet />
             </div>
           </div>
